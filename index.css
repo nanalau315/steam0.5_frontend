@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    /* background-color: black; */
+}
+
+nav {
+    background-color: white;
+    width: auto
+}
+
+img.logo {
+    /* float: left; */
+    width: 175px;
+    height: 75px;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+nav li {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(170, 209, 236, 0.575);
+    border: 2px solid rgb(170, 209, 236, 0.575);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.main-display{
+    background-color: lightpink;
+    padding: 10px;
+    border: 15px solid black;
+    border-radius: 20px;
+    overflow: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.user-info{
+    background-color: lightpink;
+    padding: 10px;
+    border: 15px solid black;
+    border-radius: 20px;
+}
+
+.signup-form{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
